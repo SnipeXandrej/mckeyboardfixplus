@@ -137,7 +137,7 @@ public final class MCKeyboardFix {
     public void onInput(InputEvent.KeyInputEvent event) {
         int keyCode = getEventKey();
         char keyChar = getEventCharacter();
-        System.out.println(keyCode);
+        //System.out.println(keyCode);
         fixShiftIssue(keyCode);
         fixSlotSwitchingOnASlovakKeyboard(keyChar);
     }
